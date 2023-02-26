@@ -1,0 +1,41 @@
+@font-face {
+  font-family: "Cinzel-Bold";
+  src: url("/fonts/Cinzel/Cinzel-Bold.ttf");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Cinzel-Regular";
+  src: url("/fonts/Cinzel/Cinzel-Regular.ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "DotGothic16";
+  src: url("/fonts/DotGothic16-Regular.ttf");
+  font-weight: 400;
+}
+:root {
+  --primary-color: #302ae6;
+  --secondary-color: #536390;
+  --font-color: #424242;
+  --bg-color: #eee;
+  --heading-color: #292922;
+  --card-bg-color: #fff;
+}
+
+.dark-theme {
+  --primary-color: #9a97f3;
+  --secondary-color: #818cab;
+  --font-color: #e1e1ff;
+  --bg-color: #121212;
+  --heading-color: #818cab;
+  --card-bg-color: #1f1f1f;
+}
+
+h1 {
+  font-family: "Cinzel-Bold";
+  font-weight: inherit;
+}
+
+div {
+  font-family: "Cinzel-Regular";
+}/*# sourceMappingURL=main.css.map */
