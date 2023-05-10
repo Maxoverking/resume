@@ -1,18 +1,67 @@
-@font-face {
-  font-family: "Cinzel-Bold";
-  src: url("/fonts/Cinzel/Cinzel-Bold.ttf");
-  font-weight: 700;
+@charset "UTF-8";
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
-@font-face {
+
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
   font-family: "Cinzel-Regular";
-  src: url("/fonts/Cinzel/Cinzel-Regular.ttf");
-  font-weight: 400;
 }
-@font-face {
-  font-family: "DotGothic16";
-  src: url("/fonts/DotGothic16-Regular.ttf");
-  font-weight: 400;
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
+
+/* Стили для обнуления верхних отступов у элементов */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+section {
+  margin: 60px 0px;
+}
+
+/* Класс для обнуления базовых свойств у списков (ul) */
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+/* Класс для обнуления базовых свойств у ссылок */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Свойства для корректного отображения картинок */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Свойства для обнуления курсива у address */
+address {
+  font-style: normal;
+}
+
 :root {
   --primary-color: #302ae6;
   --secondary-color: #536390;
@@ -32,10 +81,44 @@
 }
 
 h1 {
-  font-family: "Cinzel-Bold";
   font-weight: inherit;
 }
 
 div {
+  font-family: "DotGothic16";
+}
+
+.quote__main,
+.quote__sing {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.about__me,
+.about__why {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 24px 0px;
+  padding: 0px 20px;
+}
+
+.about--title {
   font-family: "Cinzel-Regular";
+  padding: 0px 10px;
+  -ms-flex-preferred-size: 60%;
+      flex-basis: 60%;
+  outline: 1px solid red;
 }/*# sourceMappingURL=main.css.map */
