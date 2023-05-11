@@ -2,9 +2,9 @@
   "name": "my-resume-v1.0",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+   "start": "parcel src/*.html",
+   "build": "parcel build src/*.html --public-url /My-Resume-v1.0/"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Maxoverking/My-Resume-v1.0/issues"
   },
-  "homepage": "https://github.com/Maxoverking/My-Resume-v1.0#readme"
+  "homepage": "https://github.com/Maxoverking/My-Resume-v1.0#readme",
+  "devDependencies": {
+    "parcel": "^2.8.3"
+  }
 }
