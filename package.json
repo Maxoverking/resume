@@ -4,11 +4,11 @@
   "description": "",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /My-Resume-v1.0/"
+    "build": "parcel build src/*.html --public-url /resume/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Maxoverking/My-Resume-v1.0.git"
+    "url": "git+https://github.com/Maxoverking/resume.git"
   },
   "keywords": [],
   "author": "",
@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/Maxoverking/My-Resume-v1.0/issues"
   },
-  "homepage": "https://github.com/Maxoverking/My-Resume-v1.0",
+  "homepage": "https://github.com/Maxoverking/resume",
   "devDependencies": {
     "parcel": "^2.8.3",
     "parcel-reporter-clean-dist": "^1.0.4",
