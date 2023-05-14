@@ -1,4 +1,4 @@
-body {
-  background-color: aquamarine;
-}
+@import './utils/normalize';
+@import './utils/variables';
+@import './utils/basic_set-up';
 @import './components/header';
