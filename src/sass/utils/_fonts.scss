@@ -41,9 +41,7 @@
     url('/src/fonts/Noto_Serif_Display/NotoSerifDisplay-Regular.woff')
       format('woff'),
     url('/src/fonts/Noto_Serif_Display/NotoSerifDisplay-Regular.ttf')
-      format('truetype'),
-    url('/src/fonts/Noto_Serif_Display/NotoSerifDisplay-Regular.svg#NotoSerifDisplay-Regular')
-      format('svg');
+      format('truetype');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -54,9 +52,7 @@
     url('/src/fonts/Noto_Serif_Display/NotoSerifDisplay-Bold.woff')
       format('woff'),
     url('/src/fonts/Noto_Serif_Display/NotoSerifDisplay-Bold.ttf')
-      format('truetype'),
-    url('/src/fonts/Noto_Serif_Display/NotoSerifDisplay-Bold.svg#NotoSerifDisplay-Bold')
-      format('svg');
+      format('truetype');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -64,14 +60,14 @@
 
 //++++++++++++++++++++++
 
-@font-face {
-  font-family: 'Lemon_tuesday';
-  src: local('Lemon_tuesday'),
-    url('/src/fonts/Lemon_tuesday/Lemon\ Tuesday.woff') format('woff'),
-    url('/src/fonts/Lemon_tuesday/Lemon\ Tuesday.ttf') format('truetype'),
-    url('/src/fonts/Lemon_tuesday/Lemon\ Tuesday.svg#Lemon\ Tuesday')
-      format('svg');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
+// @font-face {
+//   font-family: 'Lemon_tuesday';
+//   src: local('Lemon_tuesday'),
+//     url('/src/fonts/Lemon_tuesday/Lemon\ Tuesday.woff') format('woff'),
+//     url('/src/fonts/Lemon_tuesday/Lemon\ Tuesday.ttf') format('truetype'),
+//     url('/src/fonts/Lemon_tuesday/Lemon\ Tuesday.svg#Lemon\ Tuesday')
+//       format('svg');
+//   font-weight: 400;
+//   font-style: normal;
+//   font-display: swap;
+// }
