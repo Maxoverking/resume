@@ -7,8 +7,6 @@ const contactsBtn = document.querySelector('.contacts_btn');
 const social_media_btn = document.querySelectorAll('.social_media_btn');
 const contacts_media_btn = document.querySelectorAll('.contacts_media_btn');
 
-console.log('🚀  contacts_media_btn:', contacts_media_btn);
-
 social_checkbox.addEventListener('change', () =>
   btnTransition(social_checkbox, socialBtn, socialBtnAnimation)
 );
@@ -22,8 +20,8 @@ function btnTransition(checkbox, btn, animationFn) {
   const positions = animationFn(checked);
 
   gsap.to(btn, {
-    width: checkbox.checked ? '50px' : '80px',
-    height: checkbox.checked ? '50px' : '80px',
+    width: checked ? '50px' : '80px',
+    height: checked ? '50px' : '80px',
     duration: 0.2,
   });
   animationFn();
