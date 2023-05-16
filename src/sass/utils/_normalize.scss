@@ -1,4 +1,12 @@
+html {
+  scroll-behavior: smooth;
+  height: 100%;
+}
+
 button {
+  margin: 0;
+  padding: 0;
+  border: none;
   cursor: pointer;
 }
 
@@ -17,6 +25,7 @@ li {
   margin: 0;
   list-style: none;
 }
+
 a {
   text-decoration: none;
   color: inherit;

@@ -1,0 +1,77 @@
+@font-face {
+  font-family: 'Jost-Light';
+  src: local('Jost-Light'),
+    url('/src/fonts/Jost/Jost-Light.woff') format('woff'),
+    url('/src/fonts/Jost/Jost-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Jost-Regular';
+  src: local('Jost-Regular'),
+    url('/src/fonts/Jost/Jost-Regular.woff') format('woff'),
+    url('/src/fonts/Jost/Jost-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Jost-Bold';
+  src: local('Jost-Bold'), url('/src/fonts/Jost/Jost-Bold.woff') format('woff'),
+    url('/src/fonts/Jost/Jost-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ShantellSans-Regular';
+  src: local('ShantellSans-Regular'),
+    url('/src/fonts/ShantellSans/ShantellSans-Regular.woff') format('woff'),
+    url('/src/fonts/ShantellSans/ShantellSans-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Noto-Regular';
+  src: local('Noto-Regular'),
+    url('/src/fonts/Noto_Serif_Display/NotoSerifDisplay-Regular.woff')
+      format('woff'),
+    url('/src/fonts/Noto_Serif_Display/NotoSerifDisplay-Regular.ttf')
+      format('truetype'),
+    url('/src/fonts/Noto_Serif_Display/NotoSerifDisplay-Regular.svg#NotoSerifDisplay-Regular')
+      format('svg');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Noto-Bold';
+  src: local('Noto-Bold'),
+    url('/src/fonts/Noto_Serif_Display/NotoSerifDisplay-Bold.woff')
+      format('woff'),
+    url('/src/fonts/Noto_Serif_Display/NotoSerifDisplay-Bold.ttf')
+      format('truetype'),
+    url('/src/fonts/Noto_Serif_Display/NotoSerifDisplay-Bold.svg#NotoSerifDisplay-Bold')
+      format('svg');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+//++++++++++++++++++++++
+
+@font-face {
+  font-family: 'Lemon_tuesday';
+  src: local('Lemon_tuesday'),
+    url('/src/fonts/Lemon_tuesday/Lemon\ Tuesday.woff') format('woff'),
+    url('/src/fonts/Lemon_tuesday/Lemon\ Tuesday.ttf') format('truetype'),
+    url('/src/fonts/Lemon_tuesday/Lemon\ Tuesday.svg#Lemon\ Tuesday')
+      format('svg');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

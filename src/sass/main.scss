@@ -1,4 +1,7 @@
-@import './utils/normalize';
-@import './utils/variables';
 @import './utils/basic_set-up';
+@import './utils/fonts';
+@import './utils/variables';
+@import './utils/normalize';
 @import './components/header';
+@import './components/hero';
+@import './components/social';

@@ -1,0 +1,14 @@
+.hero_container {
+  margin-top: 40px;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 6fr 1fr;
+}
+.hero_title {
+  text-align: center;
+}
+.hero_quotes {
+  font-family: var(--Jost-Light);
+  font-size: 28px;
+  text-transform: uppercase;
+}

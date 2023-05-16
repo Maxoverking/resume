@@ -1,0 +1,30 @@
+:root {
+  --Jost-Light: 'Jost-Light';
+  --Jost-Bold: 'Jost-Bold';
+  --ShantellSans-Regular: 'ShantellSans-Regular';
+  --Noto-Regular: 'Noto-Regular';
+  --Noto-Bold: 'Noto-Bold';
+  --Lemon_tuesday: 'Lemon_tuesday';
+  --black: rgb(0, 0, 0);
+  --white: rgb(255, 255, 255);
+  --download-background-color: rgb(255, 69, 69);
+  --yellow: rgb(247, 247, 66);
+  --background-blue: rgb(19, 188, 250);
+  --background-blue-facebook: rgb(0, 117, 159);
+  --shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.56);
+  --github-background: rgb(82, 73, 84);
+  --cubik-transition: cubic-bezier(0.28, 0.12, 0, 0.98);
+  --cubik-transition-media: cubic-bezier(0.4, 0, 0.2, 1);
+  --nav-gradient: linear-gradient(
+    45deg,
+    #07d888,
+    #e40851,
+    #2f00ff,
+    #00ff37,
+    #ec0808,
+    #2600ff,
+    #0bd157,
+    #2f00ff
+  );
+  --translate-50-50: translate(-50%, -50%);
+}

@@ -1,47 +1,75 @@
-.header {
-  color: red;
+// .header {
+//   // margin-top: 20px;
+// }
+.my_name {
+  font-family: 'Lemon_tuesday';
+  // max-width: 240px;
+  // color: var(--white);
+  font-size: 30px;
+  margin-right: 10px;
 }
-// .input {
-//   max-width: 190px;
-//   width: 40px;
-//   height: 40px;
-//   outline: none;
-//   margin: 5px;
-//   transition: 0.5s;
-//   border: none;
-//   border-radius: 10px;
-//   padding: 10px;
-//   text-align: center;
-//   overflow: hidden;
-//   white-space: nowrap;
-//   text-overflow: ellipsis;
-//   transform: rotate(90deg);
-// }
+.nav_list {
+  display: flex;
+}
 
-// input:focus {
-//   width: 150px;
-//   transform: rotate(0);
-// }
+.header_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header_resume {
+  display: flex;
+}
 .btn-download {
   display: flex;
   justify-content: center;
   width: 112px;
 }
 .download-resume {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  background-color: rgb(20, 20, 20);
-  border: none;
-  font-weight: 600;
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--black);
+  // border: none;
+  border: 2px solid var(--download-background-color);
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.164);
   cursor: pointer;
   transition-duration: 0.3s;
   overflow: hidden;
-  position: relative;
+
+  &:hover {
+    width: 110px;
+    border-radius: 34px;
+    transition-duration: 0.3s;
+    background-color: var(--download-background-color);
+    align-items: center;
+  }
+
+  &:hover .cloud-download {
+    width: 50px;
+    transition-duration: 0.3s;
+    transform: translateY(150%);
+  }
+
+  &::before {
+    position: absolute;
+    top: -28px;
+    content: 'Download Resume PDF';
+    color: var(--white);
+    transition-duration: 0.3s;
+    font-size: 2px;
+  }
+
+  &:hover::before {
+    font-size: 13px;
+    opacity: 1;
+    transform: translateY(30px);
+    transition-duration: 0.3s;
+  }
 }
 
 .cloud-download {
@@ -49,33 +77,51 @@
   transition-duration: 0.3s;
 }
 
-.download-resume:hover {
-  width: 110px;
-  border-radius: 34px;
-  transition-duration: 0.3s;
-  background-color: rgb(255, 69, 69);
-  align-items: center;
+.nav_item {
+  position: relative;
+  font-family: inherit;
+  padding: 6px 16px;
+  font-size: 18px;
+  transition: color 0.3s ease-in-out;
+  background: transparent;
+  // color: var(--white);
+
+  &:hover {
+    color: var(--yellow);
+  }
+
+  &::before {
+    content: '';
+    background: var(--nav-gradient);
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 600%;
+    z-index: -1;
+    width: calc(100% + 2px);
+    height: calc(100% + 2px);
+    filter: blur(14px);
+    animation: glowing345 20s linear infinite;
+    transition: opacity 0.3s ease-in-out;
+    border-radius: 20px;
+    opacity: 0;
+  }
+
+  &:hover::before {
+    opacity: 1;
+  }
 }
 
-.download-resume:hover .cloud-download {
-  width: 50px;
-  transition-duration: 0.3s;
-  transform: translateY(86%);
-  //   display: none;
-}
+@keyframes glowing345 {
+  0% {
+    background-position: 0 0;
+  }
 
-.download-resume::before {
-  position: absolute;
-  top: -28px;
-  content: 'Download Resume PDF';
-  color: white;
-  transition-duration: 0.3s;
-  font-size: 2px;
-}
+  50% {
+    background-position: 400% 0;
+  }
 
-.download-resume:hover::before {
-  font-size: 13px;
-  opacity: 1;
-  transform: translateY(30px);
-  transition-duration: 0.3s;
+  100% {
+    background-position: 0 0;
+  }
 }
